@@ -7,6 +7,30 @@ copyright: (c) 2014-2017 Olle Fredriksson
 license: BSD3
 dependencies:
 - base >=4.8 && <4.11
+- ansi-wl-pprint
+- bifunctors
+- bound
+- bytestring
+- containers
+- deriving-compat
+- directory
+- filepath
+- hashable
+- mmorph
+- mtl
+- multiset
+- optparse-applicative
+- parsers
+- process
+- semigroups
+- split
+- temporary
+- text
+- transformers
+- trifecta
+- unordered-containers
+- vector
+- void
 library:
   source-dirs: src
 executables:
@@ -18,31 +42,6 @@ executables:
     - -fwarn-tabs
     - -fwarn-incomplete-record-updates
     - -funbox-strict-fields
-    dependencies:
-    - ansi-wl-pprint
-    - bifunctors
-    - bound
-    - bytestring
-    - containers
-    - deriving-compat
-    - directory
-    - filepath
-    - hashable
-    - mmorph
-    - mtl
-    - multiset
-    - optparse-applicative
-    - parsers
-    - process
-    - semigroups
-    - split
-    - temporary
-    - text
-    - transformers
-    - trifecta
-    - unordered-containers
-    - vector
-    - void
 data-files:
 - rts/forwarddecls.ll
 - rts/Builtin1.vix

@@ -95,7 +95,31 @@ library
     Util.Tsil
     VIX
   build-depends:
-    base >=4.8 && <4.11
+    base >=4.8 && <4.11,
+    ansi-wl-pprint,
+    bifunctors,
+    bound,
+    bytestring,
+    containers,
+    deriving-compat,
+    directory,
+    filepath,
+    hashable,
+    mmorph,
+    mtl,
+    multiset,
+    optparse-applicative,
+    parsers,
+    process,
+    semigroups,
+    split,
+    temporary,
+    text,
+    transformers,
+    trifecta,
+    unordered-containers,
+    vector,
+    void
   default-language: Haskell2010
 
 executable sixten
